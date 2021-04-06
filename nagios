@@ -1,0 +1,9 @@
+Defaults:nagios !requiretty
+nagios  ALL=NOPASSWD:/opt/OV/bin/ovc
+nagios  ALL=NOPASSWD:/opt/OV/bin/ovc
+nagios  ALL=NOPASSWD:/usr/bin/ovs-appctl
+nagios ALL=NOPASSWD: /usr/bin/virsh
+nagios  ALL=NOPASSWD:/usr/bin/ovs-dpctl
+nagios  ALL=NOPASSWD:/usr/sbin/crm_mon
+nagios  ALL=NOPASSWD:/sbin/rabbitmqctl
+nagios  ALL=NOPASSWD:/bin/find
